@@ -1,0 +1,19 @@
+.topColumn {
+    background-color: #F1F1F1;
+    width: 1200px;
+    height: 70px;
+} 
+
+.column {
+    float: left;
+    width: 350px;
+    height: 700px;
+    padding: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
